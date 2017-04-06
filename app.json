@@ -1,0 +1,7 @@
+{
+  "name": "twittertests",
+  "description": "twittertests",
+  "repository": "https://github.com/sdg1234/twittertests",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
