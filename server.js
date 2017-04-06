@@ -12,7 +12,7 @@ var twit = new twitter({
 
 
 
-app.get('/', function(req, res) {    
+app.get('/tweet', function(req, res) {    
     twit.search('nodejs OR #node', {}, function(err, data) {
       console.log(data);
       res.send(data);
