@@ -25,6 +25,6 @@ app.get('/ping', function(req, res) {
     res.send('pong');
 });
 
-var port = Number(process.env.PORT || 5001);
+var port=Number(process.env.PORT || 3002);
 app.listen(port);
 console.log('app listening on port: '+port);
